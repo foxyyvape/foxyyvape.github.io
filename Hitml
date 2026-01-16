@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vape | FOXXY Vape</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#000;
+  color:#fff;
+}
+h1{
+  text-align:center;
+  padding:20px 0;
+  color:#7FFFEF;
+}
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  padding:20px;
+}
+.card{
+  background:#111;
+  border:1px solid #222;
+  border-radius:12px;
+  text-align:center;
+  padding:20px;
+  transition:0.3s;
+}
+.card:hover{
+  background:#1a1a1a;
+  transform:scale(1.03);
+}
+.card h3{
+  margin:10px 0;
+  color:#7FFFEF;
+}
+.card p{
+  margin:5px 0;
+}
+.btn{
+  display:block;
+  margin-top:10px;
+  padding:12px;
+  background:#25D366;
+  color:#000;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:8px;
+}
+</style>
+</head>
+<body>
+
+<h1>Vape Products</h1>
+
+<div class="products">
+
+<!-- PRODUCT 1 -->
+<div class="card">
+  <h3>VNSN 14K PUFF</h3>
+  <p>Puffs: 14,000</p>
+  <p>Flavors: BLUEBERRY ICE, BAD BULL, MANGO ICE, COOL MINT, GRAPE ICE, STRAWBERRY WATERMELON ICE, MANGO STRAWBERRY ICE</p>
+  <p>Price: LKR 6,950</p>
+  <p><strong>Extended Description:</strong> Premium Grade, Limited Stock, 18+ only, Islandwide Delivery</p>
+  <a class="btn" href="https://wa.me/94705581767">Order via WhatsApp</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="card">
+  <h3>VOZAL STAR 40K PUFF</h3>
+  <p>Puffs: 40,000</p>
+  <p>Flavors: WATERMELON ICE, STRAWBERRY ICE, CHERRY COLA, BLUE RAZZ ICE, WATERMELON BUBBLEGUM, VZ BULL</p>
+  <p>Price: LKR 8,950</p>
+  <p><strong>Extended Description:</strong> Premium Grade, Limited Stock, 18+ only, Islandwide Delivery</p>
+  <a class="btn" href="https://wa.me/94705581767">Order via WhatsApp</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="card">
+  <h3>RAYA D3 PRO 30K PUFF</h3>
+  <p>Puffs: 30,000</p>
+  <p>Flavors: PEACH LYCHEE BLACKCURRANT, GRAPE BUBBLEGUM, WATERMELON ICE, COLA ICE, COFFEE, PEACH ICE, KIWI PASSION FRUIT GUAVA</p>
+  <p>Price: LKR 9,250</p>
+  <p><strong>Extended Description:</strong> Premium Grade, Limited Stock, 18+ only, Islandwide Delivery</p>
+  <a class="btn" href="https://wa.me/94705581767">Order via WhatsApp</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="card">
+  <h3>NASTY BOLT 50K PUFF</h3>
+  <p>Puffs: 50,000</p>
+  <p>Flavors: ENERGY DRINK, MIX BAREY, RASPBERRY WATERMELON, WATERMELON ICE, CHERRY COLA, BAREY GRAPE, KIWI PASSION FRUIT GUAVA, BLUEBERRY ICE</p>
+  <p>Price: LKR 10,250</p>
+  <p><strong>Extended Description:</strong> Premium Grade, Limited Stock, 18+ only, Islandwide Delivery</p>
+  <a class="btn" href="https://wa.me/94705581767">Order via WhatsApp</a>
+</div>
+
+</div>
+
+</body>
+</html>
