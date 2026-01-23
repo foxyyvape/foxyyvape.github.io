@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome To Foxyy Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body{
+      margin:0;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:#000;
+      color:#fff;
+      font-family: Arial, sans-serif;
+      text-align:center;
+    }
+
+    .box{
+      background:#111;
+      padding:30px;
+      border-radius:12px;
+      box-shadow:0 0 20px #00ffd5;
+      max-width:350px;
+      width:90%;
+      animation: fadeIn 1.2s ease;
+    }
+
+    h1{
+      color:#00ffd5;
+      margin-bottom:10px;
+    }
+
+    p{
+      font-size:15px;
+      margin-bottom:20px;
+    }
+
+    button{
+      width:100%;
+      padding:12px;
+      margin-top:10px;
+      font-size:16px;
+      border:none;
+      border-radius:8px;
+      cursor:pointer;
+    }
+
+    .yes{
+      background:#25D366;
+      color:#000;
+      font-weight:bold;
+    }
+
+    .no{
+      background:#ff4d4d;
+      color:#fff;
+      font-weight:bold;
+    }
+
+    @keyframes fadeIn{
+      from{opacity:0; transform:scale(0.9);}
+      to{opacity:1; transform:scale(1);}
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>Welcome To Foxyy Store</h1>
+    <p>
+      ⚠️ WARNING<br><br>
+      This website contains vape-related products.<br>
+      You must be <strong>18 years or older</strong> to enter.
+    </p>
+
+    <button class="yes" onclick="enterSite()">I am 18+</button>
+    <button class="no" onclick="exitSite()">I am under 18</button>
+  </div>
+
+  <script>
+    function enterSite(){
+      alert("Access granted. Welcome!");
+      // next page එකට යවන්න (ඊළඟ step එකේ දෙනවා)
+      // window.location.href = "home.html";
+    }
+
+    function exitSite(){
+      alert("Sorry! You must be 18+ to access this site.");
+      window.close();
+    }
+  </script>
+
+</body>
+</html>
